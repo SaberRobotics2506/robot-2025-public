@@ -1,0 +1,56 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "sequential",
+          "data": {
+            "commands": [
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "SRFirst"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "ExtakeCoral"
+                }
+              },
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "2ReefFirst"
+                }
+              },
+              {
+                "type": "wait",
+                "data": {
+                  "waitTime": 1.5
+                }
+              },
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "2ReefSecond"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "ExtakeCoral"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": null,
+  "choreoAuto": false
+}
